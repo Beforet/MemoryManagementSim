@@ -8,19 +8,19 @@ The program uses two input files placed in the root directory of the project.
 Minput.data defines the memory, and what block are available for processes when the simulation
 begins. The files should be in the following format:
 
-Minput.data:
-3 (number of free memory slots)
-100 400 (addresses of start and end of a free memory slot => size 300)
-600 800 (addresses of start and end of a free memory slot => size 200)
+Minput.data:<br>
+3 (number of free memory slots)<br>
+100 400 (addresses of start and end of a free memory slot => size 300)<br>
+600 800 (addresses of start and end of a free memory slot => size 200)<br>
 1500 1900 (addresses of start and end of a free memory slot => size 400)
 
 Pinput.data defines the processes that the CPU needs to place into memory. The file should be
 in the following format:
 
-Pinput.data
-3(# of processes)
-1 (ID of process) 190 (size of process)
-2 (ID of process) 210 (size of process)
+Pinput.data<br>
+3(# of processes)<br>
+1 (ID of process) 190 (size of process)<br>
+2 (ID of process) 210 (size of process)<br>
 3 (ID of process) 205 (size of process)
 
 The output.data files are created when the program completes, and display
